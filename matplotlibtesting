@@ -1,0 +1,12 @@
+import matplotlib.pyplot as p
+import matplotlib.rcsetup as rcsetup
+import matplotlib
+
+print matplotlib.matplotlib_fname()
+
+# print(rcsetup.all_backends)
+
+
+p.plot(range(20),range(20))
+
+p.show()
